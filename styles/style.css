@@ -194,6 +194,7 @@ h1 {
     margin: auto;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 110px;
 }
 
 .time-container {
@@ -220,5 +221,179 @@ h1 {
     background: rgb(255, 0, 0);
     width: 167px;
     height: 56px;
-   
+
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* best-offer-section styles here */
+.best-offer-section {
+
+    width: 1320px;
+    height: 463px;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.best-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 70px; */
+}
+
+.best-offer-content1 {
+    margin-right: 70px;
+}
+
+.new-best-off {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+
+}
+
+.best-offer-content1 h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.best-offer-content1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.best-offer-img {
+    /* width: 463px;
+    height: 463px; */
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 15px solid rgb(255, 0, 0);
+
+}
+
+.off-img {
+    /* width: 415px;
+    height: 415px; */
+    margin-top: 5px;
+    padding: 19px;
+
+}
+
+.best-offer-content2 {
+    width: 276px;
+    height: 170px;
+    margin-left: 118px;
+}
+
+.best-offer-content2 h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-offer-content2 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-offer-content2 img {
+    width: 100px;
+    height: 100px;
+}
+
+/* holidays-container styles here */
+
+.holidays-container {
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+}
+
+.holidays-container h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holi-red {
+    color: red;
+}
+
+.holidays-container h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+    margin-bottom: 28px;
+}
+
+.holidays-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holidays-img {
+    display: flex;
+    background-image: url(../assets/images/Rectangle\ 2.png);
+    /* background-size: contain; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 16px 0px 16px 16px;
+
+    margin: 0 auto;
+
+}
+
+.discount {
+    width: 306.84px;
+    height: 306.84px;
+    margin: 77px 180px 50px 177px;
 }
