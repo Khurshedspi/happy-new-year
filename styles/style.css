@@ -397,3 +397,129 @@ h1 {
     height: 306.84px;
     margin: 77px 180px 50px 177px;
 }
+
+
+/* products portfolio styles starts */
+
+
+.products-portfolio-container {
+    margin: 140px;
+}
+
+.products-portfolio-container h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.products-portfolio-container h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.products-portfolio-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.products-img img {
+    border-radius: 16px;
+}
+
+.products-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+}
+
+/* subscribe newsletter styles */
+
+.newsletter-container img {
+    /* text-align: center; */
+}
+
+.newsletter-box {
+    text-align: center;
+}
+
+.newsletter-box img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 46px;
+
+}
+
+.newsletter-box h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.newsletter-box p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.input-field {
+    width: 648px;
+    height: 72px;
+    margin-left: 550px;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+#email {
+    width: 281px;
+    height: 50px;
+    background: rgba(239, 237, 229, 0.784);
+    padding-left: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px 0px 0px 20px ; 
+}
+
+#subscribe {
+    width: 122px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    margin-left: -5px;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 20px; */
+    text-align: center;
+    text-transform: capitalize;
+}
