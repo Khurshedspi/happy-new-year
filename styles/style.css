@@ -17,7 +17,7 @@ body {
     /* border: 2px solid red; */
     min-height: 600px;
     margin-top: 20px;
-    background-image: url(/assets/images/Banner\ Image.png);
+    background-image: url("../assets/images/Banner\ image.png");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-position: center;
@@ -382,7 +382,7 @@ h1 {
 
 .holidays-img {
     display: flex;
-    background-image: url(../assets/images/Rectangle\ 2.png);
+    background-image: url("../assets/images/Rectangle\ 2.png");
     /* background-size: contain; */
     background-position: bottom;
     background-repeat: no-repeat;
